@@ -33,7 +33,7 @@ function Title({setMessages}: Props) {
   
     return (
       <div className='flex justify-between items-center w-full p-4 bg-gray-900 text-white font-bold shadow'>
-        <div className='italic'>Vertex AI Voice Chat by Zoran</div>
+        <div className='italic'>Vertex AI - Gemini Voice Chat by Zoran</div>
         <button onClick={resetConversation} className={'transition-all duration-300 text-blue-300 hover:text-pink-500 ' + (isResetting && "animate-pulse")}>
           <svg 
             xmlns="http://www.w3.org/2000/svg"
